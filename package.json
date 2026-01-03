@@ -2,7 +2,7 @@
   "name": "color2tailwind",
   "displayName": "Color to Tailwind CSS",
   "description": "Convert any CSS color (hex, rgb, hsl, oklch, oklab, lab, lch, hwb, named colors) to Tailwind CSS classes. Hover to see exact matches or nearest alternatives.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publisher": "RutShah",
   "author": {
     "name": "Rut Shah"
