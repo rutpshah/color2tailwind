@@ -213,13 +213,99 @@ color2tailwind/
 
 ## 🤝 Contributing
 
-Contributions welcome! Please feel free to submit a Pull Request.
+# Contributing to color2tailwind
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing`)
-5. Open a Pull Request
+Thanks for your interest in contributing! 🎉
+
+## Ways to Contribute
+
+- 🐛 **Report bugs** - Found something broken? Open an issue
+- 💡 **Suggest features** - Have an idea? We'd love to hear it
+- 📝 **Improve docs** - Typos, clarifications, examples
+- 🔧 **Submit PRs** - Bug fixes, new features, improvements
+
+## Development Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/rutpshah/color2tailwind.git
+cd color2tailwind
+
+# Install dependencies
+npm install
+
+# Compile TypeScript
+npm run compile
+
+# Watch mode for development
+npm run watch
+```
+
+## Testing Locally
+
+1. Open the project in VS Code
+2. Press `F5` to launch the Extension Development Host
+3. Open any file with CSS colors to test hover functionality
+
+## Project Structure
+
+```
+color2tailwind/
+├── src/
+│   ├── extension.ts       # Main extension entry point
+│   ├── colorUtils.ts      # Color parsing & conversion
+│   └── tailwindColors.ts  # Tailwind palette & matching
+├── images/
+│   └── icon.png           # Extension icon
+├── package.json           # Extension manifest
+└── README.md
+```
+
+## Pull Request Guidelines
+
+1. **Fork** the repository
+2. **Create a branch** for your feature (`git checkout -b feature/amazing-feature`)
+3. **Make your changes**
+4. **Test** your changes locally
+5. **Commit** with a clear message (`git commit -m 'feat: add amazing feature'`)
+6. **Push** to your fork (`git push origin feature/amazing-feature`)
+7. **Open a Pull Request**
+
+## Commit Message Format
+
+We use conventional commits:
+
+- `feat:` - New feature
+- `fix:` - Bug fix
+- `docs:` - Documentation only
+- `refactor:` - Code change that neither fixes a bug nor adds a feature
+- `test:` - Adding or updating tests
+- `chore:` - Maintenance tasks
+
+## Code Style
+
+- TypeScript with strict mode
+- Use meaningful variable names
+- Add comments for complex logic
+- Run `npm run lint` before committing
+
+## Adding New Color Formats
+
+To add support for a new color format:
+
+1. Add the regex pattern in `colorUtils.ts`
+2. Create a parser function
+3. Add conversion to RGBA
+4. Update the `parseColor()` function
+5. Add tests
+
+## Questions?
+
+Open an issue or start a discussion. We're happy to help!
+
+---
+
+Thank you for contributing! 💜
 
 ---
 
