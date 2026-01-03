@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38bdf8"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="128" height="128" rx="16" fill="url(#bg)"/>
+  
+  <!-- Hash symbol (#) -->
+  <g fill="url(#accent)">
+    <!-- Vertical bars -->
+    <rect x="38" y="28" width="10" height="72" rx="2"/>
+    <rect x="58" y="28" width="10" height="72" rx="2"/>
+    
+    <!-- Horizontal bars -->
+    <rect x="26" y="44" width="54" height="10" rx="2"/>
+    <rect x="26" y="74" width="54" height="10" rx="2"/>
+  </g>
+  
+  <!-- Tailwind swoosh hint -->
+  <path d="M88 64 C92 52, 104 48, 108 56 C112 64, 104 76, 96 72 C88 68, 92 56, 100 60" 
+        stroke="#38bdf8" 
+        stroke-width="4" 
+        fill="none" 
+        stroke-linecap="round"/>
+  
+  <!-- Arrow -->
+  <path d="M82 64 L94 64 M90 58 L96 64 L90 70" 
+        stroke="white" 
+        stroke-width="3" 
+        fill="none" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        opacity="0.8"/>
+</svg>
