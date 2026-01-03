@@ -232,7 +232,7 @@ MIT © [Your Name](https://github.com/rutpshah)
 ## 💜 Support
 
 - ⭐ **Star** this repo on [GitHub](https://github.com/rutpshah/color2tailwind)
-- 📝 **Review** on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=your-publisher.color2tailwind)
+- 📝 **Review** on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=RutShah.color2tailwind)
 - 🐛 **Report issues** on [GitHub Issues](https://github.com/rutpshah/color2tailwind/issues)
 
 ---
