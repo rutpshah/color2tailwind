@@ -225,7 +225,7 @@ Contributions welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-MIT © [Your Name](https://github.com/rutpshah)
+MIT © [Rut Shah](https://github.com/rutpshah)
 
 ---
 
