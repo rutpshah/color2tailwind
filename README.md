@@ -213,8 +213,6 @@ color2tailwind/
 
 ## 🤝 Contributing
 
-# Contributing to color2tailwind
-
 Thanks for your interest in contributing! 🎉
 
 ## Ways to Contribute
