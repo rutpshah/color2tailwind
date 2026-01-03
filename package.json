@@ -26,20 +26,35 @@
   },
   "categories": [
     "Other",
-    "Visualization"
+    "Visualization",
+    "Formatters",
+    "Linters"
   ],
   "keywords": [
     "tailwind",
     "tailwindcss",
+    "tailwind css",
     "css",
     "color",
+    "colour",
     "hex",
     "rgb",
+    "rgba",
     "hsl",
+    "hsla",
     "oklch",
     "oklab",
+    "lab",
+    "lch",
+    "hwb",
     "converter",
-    "hover"
+    "hover",
+    "color picker",
+    "palette",
+    "frontend",
+    "web development",
+    "utility classes",
+    "design system"
   ],
   "activationEvents": [
     "onStartupFinished"
