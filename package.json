@@ -1,0 +1,140 @@
+{
+  "name": "color2tailwind",
+  "displayName": "Color to Tailwind CSS",
+  "description": "Convert any CSS color (hex, rgb, hsl, oklch, oklab, lab, lch, hwb, named colors) to Tailwind CSS classes. Hover to see exact matches or nearest alternatives.",
+  "version": "1.0.1",
+  "publisher": "RutShah",
+  "author": {
+    "name": "Rut Shah"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rutpshah/color2tailwind"
+  },
+  "bugs": {
+    "url": "https://github.com/rutpshah/color2tailwind/issues"
+  },
+  "homepage": "https://github.com/rutpshah/color2tailwind#readme",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#0f172a",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other",
+    "Visualization"
+  ],
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "css",
+    "color",
+    "hex",
+    "rgb",
+    "hsl",
+    "oklch",
+    "oklab",
+    "converter",
+    "hover"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Color to Tailwind CSS",
+      "properties": {
+        "color2tailwind.showColorPreview": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show a color preview swatch in the hover tooltip"
+        },
+        "color2tailwind.showRgbValues": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show RGB values in the hover tooltip"
+        },
+        "color2tailwind.showHslValues": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show HSL values in the hover tooltip"
+        },
+        "color2tailwind.showOriginalFormat": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the detected color format (e.g., 'oklch', 'hsl')"
+        },
+        "color2tailwind.showNearestMatch": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show nearest Tailwind colors when no exact match exists"
+        },
+        "color2tailwind.nearestMatchCount": {
+          "type": "number",
+          "default": 3,
+          "minimum": 1,
+          "maximum": 10,
+          "description": "Number of nearest Tailwind colors to show"
+        },
+        "color2tailwind.classPrefix": {
+          "type": "string",
+          "default": "",
+          "description": "Prefix for Tailwind classes (e.g., 'tw-' for tw-bg-red-500)"
+        },
+        "color2tailwind.enabledLanguages": {
+          "type": "array",
+          "default": [
+            "javascript",
+            "typescript",
+            "javascriptreact",
+            "typescriptreact",
+            "html",
+            "css",
+            "scss",
+            "less",
+            "vue",
+            "svelte",
+            "astro",
+            "json",
+            "jsonc",
+            "markdown",
+            "php",
+            "erb",
+            "blade",
+            "python"
+          ],
+          "description": "Languages where the extension is active"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "color2tailwind.convertToTailwind",
+        "title": "Convert Color to Tailwind Class",
+        "category": "Color to Tailwind"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/vscode": "^1.74.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "@vscode/vsce": "^2.22.0",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.0"
+  }
+}
