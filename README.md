@@ -310,7 +310,7 @@ MIT © [Rut Shah](https://github.com/rutpshah)
 If this extension saves you time, consider:
 
 - ☕ [Buy me a coffee](https://www.buymeacoffee.com/rutpshah)
-- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/rutpshah)
+- ☕ [Buy Me a Coffee at ko-fi](https://ko-fi.com/rutpshah)
 
 Your support helps me:
 - 🔧 Maintain and improve this extension
