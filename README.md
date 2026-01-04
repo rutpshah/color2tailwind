@@ -107,7 +107,7 @@ Arbitrary values:
 ### From VSIX
 
 ```bash
-code --install-extension color2tailwind-1.0.0.vsix
+code --install-extension color2tailwind-1.1.3.vsix
 ```
 
 ---
@@ -187,9 +187,10 @@ npm run compile
 ```
 color2tailwind/
 ├── src/
-│   ├── colorUtils.ts      # Universal color parser
-│   ├── tailwindColors.ts  # Palette + Delta E matching
-│   └── extension.ts       # VS Code integration
+│   ├── colorUtils.ts         # Universal color parser
+│   ├── tailwindColors.ts     # Palette + Delta E matching
+│   ├── codeActionProvider.ts # Quick copy actions
+│   └── extension.ts          # VS Code integration
 ├── images/
 │   └── icon.png
 ├── package.json
@@ -199,6 +200,12 @@ color2tailwind/
 ---
 
 ## 📝 Changelog
+
+### 1.1.3
+
+✨ NEW: Quick Copy to Clipboard! Click 💡 lightbulb to copy Tailwind classes instantly
+🚀 Code Actions for faster workflow
+📋 One-click copy for bg, text, border, and arbitrary values
 
 ### 1.0.0
 
@@ -318,6 +325,18 @@ MIT © [Rut Shah](https://github.com/rutpshah)
 - ⭐ **Star** this repo on [GitHub](https://github.com/rutpshah/color2tailwind)
 - 📝 **Review** on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=RutShah.color2tailwind)
 - 🐛 **Report issues** on [GitHub Issues](https://github.com/rutpshah/color2tailwind/issues)
+
+If this extension saves you time, consider:
+
+- ☕ [Buy me a coffee](https://www.buymeacoffee.com/rutpshah)
+- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/rutpshah)
+
+Your support helps me:
+- 🔧 Maintain and improve this extension
+- 🚀 Build new developer tools
+- 📚 Create helpful guides and tutorials
+
+Every coffee fuels late-night coding sessions. Thank you! 🙏
 
 ---
 

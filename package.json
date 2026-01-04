@@ -132,6 +132,11 @@
         "command": "color2tailwind.convertToTailwind",
         "title": "Convert Color to Tailwind Class",
         "category": "Color to Tailwind"
+      },
+      {
+        "command": "color2tailwind.copyClass",
+        "title": "Copy Tailwind Class to Clipboard",
+        "category": "Color to Tailwind"
       }
     ]
   },
