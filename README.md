@@ -199,25 +199,6 @@ color2tailwind/
 
 ---
 
-## 📝 Changelog
-
-### 1.1.3
-
-✨ NEW: Quick Copy to Clipboard! Click 💡 lightbulb to copy Tailwind classes instantly
-🚀 Code Actions for faster workflow
-📋 One-click copy for bg, text, border, and arbitrary values
-
-### 1.0.0
-
-- 🎨 Support for all CSS color formats (hex, rgb, hsl, hwb, lab, lch, oklch, oklab)
-- 🏷️ 147 named CSS colors
-- 🔍 Perceptual nearest-color matching using Delta E
-- 📦 Complete Tailwind v3 palette (242 colors)
-- ⚡ Hover provider for instant conversion
-- 📋 Quick convert command with clipboard support
-
----
-
 ## 🤝 Contributing
 
 Thanks for your interest in contributing! 🎉
