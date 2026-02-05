@@ -2,7 +2,7 @@
   "name": "color2tailwind",
   "displayName": "Color to Tailwind CSS",
   "description": "Convert any CSS color (hex, rgb, hsl, oklch, oklab, lab, lch, hwb, named colors) to Tailwind CSS classes. Hover to see exact matches or nearest alternatives.",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "publisher": "RutShah",
   "author": {
     "name": "Rut Shah"
@@ -137,6 +137,16 @@
         "command": "color2tailwind.copyClass",
         "title": "Copy Tailwind Class to Clipboard",
         "category": "Color to Tailwind"
+      },
+      {
+        "command": "color2tailwind.batchConvert",
+        "title": "Batch Convert Colors to Tailwind",
+        "category": "Color to Tailwind"
+      },
+      {
+        "command": "color2tailwind.migrationMode",
+        "title": "Migration Mode - Scan File for Tailwind Conversion",
+        "category": "Color to Tailwind"
       }
     ]
   },
@@ -145,16 +155,24 @@
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+    "pretest": "npm run compile",
     "package": "vsce package",
     "publish": "vsce publish"
   },
   "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.6",
     "@types/node": "^20.10.0",
     "@types/vscode": "^1.74.0",
     "@typescript-eslint/eslint-plugin": "^6.13.0",
     "@typescript-eslint/parser": "^6.13.0",
+    "@vscode/test-electron": "^2.3.8",
     "@vscode/vsce": "^2.22.0",
     "eslint": "^8.54.0",
+    "glob": "^10.3.10",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.0"
   }
 }
