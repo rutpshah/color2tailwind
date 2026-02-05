@@ -521,7 +521,6 @@ Made with ❤️ for developers
 - **15+ File Types** supported
 - **40+ Unit Tests** (100% core coverage)
 - **50+ Installs** (pre-launch, organic)
-- **0 Dependencies** (lightweight, fast)
 
 ---
 
