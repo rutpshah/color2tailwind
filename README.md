@@ -18,6 +18,10 @@ Supports **all modern CSS color formats**: hex, rgb, hsl, hwb, lab, lch, oklch, 
 
 **Forward Conversion (Color → Tailwind)**
 
+![Demo](images/color-match.png)
+
+![Demo](images/reverse-conversion.png)
+
 ```css
 .element {
   color: #3b82f6; /* ✅ Exact match: text-blue-500 */
@@ -38,7 +42,7 @@ Supports **all modern CSS color formats**: hex, rgb, hsl, hwb, lab, lch, oklch, 
 
 Convert multiple colors at once:
 
-1. **Ctrl+Shift+P** → `Batch Convert Colors to Tailwind`
+1. **Open Command Palette** → `Batch Convert Colors to Tailwind`
 2. Choose scope: **Entire Document** or **Selected Text**
 3. Select property: `bg`, `text`, `border`, `ring`
 4. Multi-select colors to convert
@@ -82,6 +86,31 @@ Get a comprehensive migration roadmap:
 ```
 
 ---
+
+### 📋 Code Actions / Quick Fix
+
+**VS Code's native lightbulb menu**
+
+![Demo](images/copy-to-clipboard-feature.gif)
+
+1. Place cursor on a color
+2. Click the lightbulb 💡 icon (or `Ctrl+.` / `Cmd+.`)
+3. See available Tailwind classes in the quick fix menu
+4. Click any class → **Copied to clipboard** ✅
+
+**Example:**
+
+```jsx
+// Cursor here ↓
+
+{
+  /* 💡 appears → Click → Shows:
+      📋 Copy bg-red-500
+      📋 Copy text-red-500
+      📋 Copy border-red-500
+  */
+}
+```
 
 ### 🎨 Universal Color Support
 
@@ -134,6 +163,8 @@ Red palette, shade 500
 ```
 
 #### Nearest Match
+
+![Demo](images/nearest-match.png)
 
 For custom colors, find the closest Tailwind alternatives:
 
